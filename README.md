@@ -7,10 +7,9 @@
  2. create database in your system create table which contains 4 columns (id,name,emailId,password)
  3. use this query=CREATE TABLE login (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(255),
-    email VARCHAR(255),
-    password VARCHAR(255)
+    name VARCHAR(30),
+    email VARCHAR(30),
+    password VARCHAR(30)
 );
  4. change database details according to you in the .env file which is in the backend folder.(user,password,etc)
- 5. i have used bootstrap cdn link for styling.
- 6. start the frontend and backend server.
+ 5. start the frontend and backend server.
